@@ -1,0 +1,8 @@
+#include <stdio.h>
+main ()
+{int min,sec;
+printf("Enter time in minutes");
+scanf("%d",&min);
+sec = min*60;
+printf("The time in seconds=%d",sec);
+}
